@@ -235,8 +235,6 @@ public class ExporterDL implements GraphExporter, CharacterExporter, LongTask {
         for (Node node : graph.getNodes()) {
             if (useLabels) {
                 idToNode.put(idForNode++, node);
-            } else {
-                idToNode.put(idForNode++, node);
             }
         }
         int maxLengthOfEdgeWeight = 0;
